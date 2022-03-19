@@ -1,9 +1,10 @@
-package mobile.android.shoppinglist
+package mobile.android.shoppinglist.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import mobile.android.shoppinglist.data.db.entities.ShoppingItem
 
 @Database(
     entities = [ShoppingItem::class],
